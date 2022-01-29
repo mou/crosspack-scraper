@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "crosspack-scraper"
+version = "0.1.0"
+description = "Scraper for Crosspack food delivery service menu"
+authors = ["Andrey \"MOU\" Larionov <anlarionov@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Scrapy = "^2.5.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
